@@ -34,7 +34,6 @@ public class Main {
     public static void main(String[] args) {
         char BYTE_ORDER_MARK = '\uFEFF';
         try {
-            // TODO code application logic here
             String ifname = "c:\\Users\\Admin\\Documents\\NetBeansProjects\\EAN_TPNB_XLS_CSV\\ean.xlsx";
             String ofname = ifname.replaceAll(".xlsx", "");
             File fi = new File(ifname);
